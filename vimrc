@@ -73,4 +73,4 @@ set t_ti= t_te= t_ut=
 
 set nobackup nowritebackup noswapfile
 
-let mapleader=','
+let mapleader=" "

@@ -1,4 +1,4 @@
-source ~/.vim/neobundle.vim
+source ~/.vim/deps.vim
 
 scriptencoding utf8
 set encoding=utf8 fileencoding=utf8 termencoding=utf8 nobomb

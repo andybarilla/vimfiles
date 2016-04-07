@@ -1,9 +1,10 @@
 source ~/.vim/deps.vim
 
+packadd matchit
+
 scriptencoding utf8
 set encoding=utf8 fileencoding=utf8 termencoding=utf8 nobomb
 
-runtime macros/matchit.vim
 set showmatch
 
 set ttyfast

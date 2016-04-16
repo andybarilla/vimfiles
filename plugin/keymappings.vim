@@ -42,6 +42,4 @@ nnoremap Q <nop>
 nnoremap <silent> <leader>ff :call preserve#preserve('silent normal gg=G')<CR>
 
 " Map to show the highlight name under the cursor
-map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
-\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
-\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+map <f2> :echo color#current()<cr>
